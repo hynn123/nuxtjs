@@ -1,9 +1,15 @@
 <template>
-  <h1>iLobatoDEV</h1>
+  <h1 class="logo">&lt;IL.<span class="verdinho">DEV</span>/&gt;</h1>
 </template>
 
 <style>
-h1 {
-  color: rgb(140, 228, 0);
+.logo
+{
+  color: #fff;
+  font-weight: 100;
+}
+.verdinho
+{
+  color: #88FF00;
 }
 </style>
