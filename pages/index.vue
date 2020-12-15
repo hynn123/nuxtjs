@@ -1,7 +1,10 @@
 <template>
   <div class="container">
-    <Logo />
-    <Menu />
+    <div class="row">
+      <div class="col">
+        <Logo />
+        <Menu />
+      </div>
   </div>
 </template>
 
