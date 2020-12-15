@@ -26,7 +26,6 @@ export default {
 <style>
 body {
   background-color: #111;
-  font-family: 'Oswald';
 }
 
 .container {

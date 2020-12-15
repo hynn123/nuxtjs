@@ -45,4 +45,11 @@
 	border-color: transparent;
 	transition: ease all .3s;
 }
+
+.btn-verde.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-verde.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-verde.show > .btn-secondary.dropdown-toggle:focus
+{
+	box-shadow: 0 0 0 0.2rem transparent;
+}
 </style>
