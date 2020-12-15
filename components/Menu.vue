@@ -1,6 +1,6 @@
 <template>
 	<div class="d-flex flex-column justify-content-center">
-		<div class="dropdown">
+		<div class="dropdown mb-3">
 			<button class="btn btn-secondary btn-verde dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				Portfólio
 			</button>
@@ -22,6 +22,7 @@
 	border: 2px solid #88FF00;
 	background-color: transparent;
 
+	font-family: 'Oswald';
 	font-size: 14pt;
 	font-weight: 400;
 	letter-spacing: 2px;
