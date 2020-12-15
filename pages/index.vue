@@ -4,6 +4,7 @@
       <div class="col">
         <Logo />
         <Menu />
+        <Footer />
       </div>
   </div>
 </template>
@@ -11,11 +12,13 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import Menu from '~/components/Menu.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Logo,
     Menu,
+    Footer,
   }
 }
 </script>

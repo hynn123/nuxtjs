@@ -28,13 +28,22 @@
 	letter-spacing: 2px;
 	text-transform: uppercase;
 
-	padding: 2em;
+	padding: 1em 2em;
 	margin-bottom: 1rem;
+
+	transition: ease all .3s;
 }
 
 .btn-verde:last-of-type
 {
 	margin-bottom: 0;
+}
+
+.btn-verde:hover
+{
+	background-color: #88FF00;
+	border-color: transparent;
+	transition: ease all .3s;
 }
 
 .dropdown-menu
