@@ -16,7 +16,11 @@
 {
   font-family: 'Oswald';
   font-size: 11pt;
+  font-weight: 100;
+  
   letter-spacing: 3px;
+
+  color: #fff;
 }
 .verdinho
 {

@@ -27,7 +27,10 @@
 	font-weight: 400;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+
 	margin-bottom: 1em;
+
+	min-height: 50px;
 }
 
 .btn-verde:last-of-type
