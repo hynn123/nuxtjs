@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    Testando.
+    <logo />
   </div>
 </template>
 
@@ -15,6 +15,9 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: rgb(24, 24, 24);
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -30,7 +33,7 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #fff;
   letter-spacing: 1px;
 }
 
