@@ -21,6 +21,17 @@
 {
 	border: 2px solid #88FF00;
 	background-color: transparent;
+
+	font-size: 14pt;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+.btn-verde:last-of-type
+{
+	margin-bottom: 0;
 }
 
 .dropdown-menu
