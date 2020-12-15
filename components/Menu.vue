@@ -24,13 +24,12 @@
 
 	font-family: 'Oswald';
 	font-size: 14pt;
-	font-weight: 400;
+	font-weight: 100;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 
+	padding: 2em;
 	margin-bottom: 1rem;
-
-	min-height: 50px;
 }
 
 .btn-verde:last-of-type

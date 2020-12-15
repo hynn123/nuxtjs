@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-3">
     <h1 class="logo">&lt;IL.<span class="verdinho">DEV</span>/&gt;</h1>
     <h2 class="sublogo">WEBDEVELOPER</h2>
   </div>
@@ -8,6 +8,7 @@
 <style>
 .logo
 {
+  color: #fff;
   font-size: 56px;
   letter-spacing: 0px;
   line-height: 1.2;
@@ -26,6 +27,7 @@
   font-weight: 200;
   font-style: normal;
   tab-size: 4;
+  margin-top: -10px;
 }
 .verdinho
 {
