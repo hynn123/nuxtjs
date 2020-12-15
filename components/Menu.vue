@@ -45,9 +45,4 @@
 	border-color: transparent;
 	transition: ease all .3s;
 }
-
-.dropdown-menu
-{
-
-}
 </style>

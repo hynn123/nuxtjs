@@ -25,8 +25,10 @@ export default {
 
 <style>
 body {
-  background-color: rgb(24, 24, 24);
+  background-color: #111;
+  font-family: 'Oswald';
 }
+
 .container {
   margin: 0 auto;
   min-height: 100vh;

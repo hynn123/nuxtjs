@@ -1,5 +1,5 @@
 <template>
-	<div class="text-center">
+	<div class="mt-3 text-white text-center">
 		Todos os direitos reservados ©
 	</div>
 </template>
