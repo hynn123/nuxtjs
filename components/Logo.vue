@@ -8,19 +8,26 @@
 <style>
 .logo
 {
-  color: #fff;
+  font-family: Inter, sans-serif;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  font-size: 56px;
+  letter-spacing: 0px;
+  line-height: 1.2;
   font-weight: 100;
-  font-size: 60px;
+  font-style: normal;
+  tab-size: 4;
 }
 .sublogo
 {
-  font-family: 'Oswald';
-  font-size: 11pt;
-  font-weight: 100;
-  
-  letter-spacing: 3px;
-
-  color: #fff;
+  font-family: Oswald, serif;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  font-size: 11px;
+  letter-spacing: 8.9px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-style: normal;
+  tab-size: 4;
 }
 .verdinho
 {
