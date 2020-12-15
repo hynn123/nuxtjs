@@ -1,7 +1,7 @@
 <template>
 	<div class="d-flex flex-column justify-content-center">
 		<div class="dropdown mb-3">
-			<button class="btn btn-secondary btn-verde dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<button class="btn btn-secondary btn-verde btn-block dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				Portfólio
 			</button>
 			<div class="dropdown-menu text-center" aria-labelledby="dropdownMenu2">
@@ -19,16 +19,18 @@
 <style>
 .btn-verde
 {
-	color: rgb(255, 255, 255);
-    border: 1px solid rgba(136, 255, 0, 1);
-    font-size: 14px;
-    font-family: oswald;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
-    transform: none;
+	border: 1px solid #88FF00;
+	background-color: transparent;
+
+	font-family: 'Oswald';
+	font-size: 14pt;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	margin-bottom: 1rem;
+
+	min-height: 50px;
 }
 
 .btn-verde:last-of-type

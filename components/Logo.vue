@@ -8,8 +8,6 @@
 <style>
 .logo
 {
-  font-family: Inter, sans-serif;
-  -webkit-text-fill-color: rgb(255, 255, 255);
   font-size: 56px;
   letter-spacing: 0px;
   line-height: 1.2;
