@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col">
+	<div class="d-flex flex-column justify-content-center">
 		<div class="dropdown">
 			<button class="btn btn-secondary btn-verde dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				Portfólio
@@ -19,7 +19,8 @@
 <style>
 .btn-verde
 {
-	background-color: #88FF00;
+	border: 2px solid #88FF00;
+	background-color: transparent;
 }
 
 .dropdown-menu
