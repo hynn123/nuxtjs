@@ -7,6 +7,7 @@
 {
   color: #fff;
   font-weight: 100;
+  font-size: 60px;
 }
 .verdinho
 {
