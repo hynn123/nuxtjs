@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <logo />
-    <menu />
+    <Menu />
   </div>
 </template>
 
