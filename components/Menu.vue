@@ -11,7 +11,7 @@
 			</div>
 		</div>
 
-		<NuxtLink to="sobremim" class="btn btn-secondary btn-verde">Sobre mim</NuxtLink>
+		<NuxtLink to="/sobremim" class="btn btn-secondary btn-verde">Sobre mim</NuxtLink>
 		<a href="#" class="btn btn-secondary btn-verde">Contato</a>
 	</div>
 </template>
