@@ -1,13 +1,13 @@
 <template>
 	<div class="d-flex flex-column justify-content-center">
 		<div class="dropdown mb-3">
-			<button class="btn btn-secondary btn-verde btn-block dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a class="btn btn-secondary btn-verde btn-block dropdown-toggle" type="a" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				Portfólio
-			</button>
+			</a>
 			<div class="dropdown-menu text-center w-100" aria-labelledby="dropdownMenu2">
-				<button class="dropdown-item" type="button">Layouts</button>
-				<button class="dropdown-item" type="button">Banners</button>
-				<button class="dropdown-item" type="button">Logos</button>
+				<a class="dropdown-item" type="a">Layouts</a>
+				<a class="dropdown-item" type="a">Banners</a>
+				<a class="dropdown-item" type="a">Logos</a>
 			</div>
 		</div>
 
@@ -50,5 +50,21 @@
 .btn-verde:focus
 {
 	box-shadow: unset;
+}
+
+.dropdown-menu.text-center.w-100
+{
+	background-color: #111;
+}
+
+.dropdown-menu.text-center.w-100 a
+{
+	color: #88ff00;
+}
+
+.dropdown-menu.text-center.w-100 a:active
+{
+	color: #88ff00;
+	background-color: rgba(172, 255, 47, 0.151);
 }
 </style>
