@@ -11,7 +11,7 @@
 			</div>
 		</div>
 
-		<a href="#" class="btn btn-secondary btn-verde">Sobre mim</a>
+		<NuxtLink to="sobremim" class="btn btn-secondary btn-verde">Sobre mim</NuxtLink>
 		<a href="#" class="btn btn-secondary btn-verde">Contato</a>
 	</div>
 </template>
@@ -19,6 +19,8 @@
 <style>
 .btn-verde
 {
+	color: #fff;
+
 	border: 1px solid #88FF00;
 	background-color: transparent;
 
@@ -55,6 +57,10 @@
 .dropdown-menu.text-center.w-100
 {
 	background-color: #111;
+	border: 1px solid #88FF00;
+	border-top: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .dropdown-menu.text-center.w-100 a
