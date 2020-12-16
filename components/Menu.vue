@@ -4,7 +4,7 @@
 			<button class="btn btn-secondary btn-verde btn-block dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				Portfólio
 			</button>
-			<div class="dropdown-menu text-center" aria-labelledby="dropdownMenu2">
+			<div class="dropdown-menu text-center w-100" aria-labelledby="dropdownMenu2">
 				<button class="dropdown-item" type="button">Layouts</button>
 				<button class="dropdown-item" type="button">Banners</button>
 				<button class="dropdown-item" type="button">Logos</button>
