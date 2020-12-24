@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-3">
+  <div class="d-flex flex-column justify-content-center align-items-center">
     <h1 class="logo">&lt;IL.<span class="verdinho">DEV</span>/&gt;</h1>
     <h2 class="sublogo">WEBDEVELOPER</h2>
   </div>

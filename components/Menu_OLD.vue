@@ -1,15 +1,18 @@
 <template>
 	<div class="d-flex flex-column justify-content-center">
-		<div class="dropdown">
-			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Dropdown button
-			</button>
-			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<a class="dropdown-item" href="#">Action</a>
-				<a class="dropdown-item" href="#">Another action</a>
-				<a class="dropdown-item" href="#">Something else here</a>
+		<div class="dropdown mb-3">
+			<a class="btn btn-secondary btn-verde btn-block dropdown-toggle" type="a" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Portfólio
+			</a>
+			<div class="dropdown-menu text-center w-100" aria-labelledby="dropdownMenu2">
+				<a class="dropdown-item" type="a">Layouts</a>
+				<a class="dropdown-item" type="a">Banners</a>
+				<a class="dropdown-item" type="a">Logos</a>
 			</div>
 		</div>
+
+		<NuxtLink to="/sobremim" class="btn btn-secondary btn-verde">Sobre mim</NuxtLink>
+		<a href="#" class="btn btn-secondary btn-verde">Contato</a>
 	</div>
 </template>
 

@@ -1,33 +1,7 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <Logo />
-        <Menu />
-        <Footer />
-      </div>
-  </div>
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
-import Menu from '~/components/Menu.vue'
-import Footer from '~/components/Footer.vue'
-
-export default {
-  components: {
-    Logo,
-    Menu,
-    Footer,
-  }
-}
-</script>
-
 <style>
-body {
-  background-color: #111;
-}
-
 .container {
   margin: 0 auto;
   min-height: 100vh;
