@@ -1,24 +1,22 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 mx-auto">
-        <Header />
+      <div class="col-sm-12">
         <nuxt />
         <Footer />
       </div>
     </div>
   </div>
-  
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
+import Header from "~/components/Header.vue";
 
 export default {
   components: {
     Header,
-  }
-}
+  },
+};
 </script>
 
 <style>

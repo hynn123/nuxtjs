@@ -1,11 +1,7 @@
 <template>
-	<div class="row">
-		<div class="col">
+	<div class="row d-flex flex-column">
+		<div class="col-sm">
 			<Logo />
-		</div>
-
-		<div class="col">
-			<Menu />
 		</div>
 	</div>
 </template>
