@@ -1,39 +1,21 @@
-# Nuxt.js Storyblok Boilerplate
+# Nuxt.js Example
 
-## How to get started?
+This directory is a brief example of a [Nuxt.js](https://nuxtjs.org) app that can be deployed with Vercel and zero configuration.
 
-1. [Register](https://app.storyblok.com/#!/signup) at Storyblok for free
-2. Create a new empty Space and exchange the preview token with your own in ```nuxt.config.js``` (not required if you have downloaded the project via app.storyblok.com)
+## Deploy Your Own
 
-```js
-  // in nuxt.config.js
-  modules: [
-    ['storyblok-nuxt', 
-      { 
-        accessToken: '<Your_Access_Token_Here>', cacheProvider: 'memory'
-      }
-    ]
-  ],
+Deploy your own Nuxt.js project with Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/nuxtjs)
+
+_Live Example: https://nuxtjs.now-examples.now.sh_
+
+### How We Created This Example
+
+To get started with Nuxt.js deployed with Vercel, you can use the [Create-Nuxt-App CLI](https://www.npmjs.com/package/create-nuxt-app) to initialize the project:
+
+```shell
+$ npx create-nuxt-app my-app
 ```
 
-3. Read the Nuxt.js tutorial about Storyblok's concept: https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial
-4. Enjoy and start developing
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev # or yarn dev
-
-# build for production and launch server
-$ npm run build # or yarn build
-$ npm start # or yarn start
-
-# generate static project
-$ npm run generate # or yarn generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+> The only change made is to amend the output directory in `nuxt.config.js` to `"/public"`.
